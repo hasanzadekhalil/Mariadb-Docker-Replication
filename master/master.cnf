@@ -1,0 +1,7 @@
+[mysqld]
+server_id=1
+gtid_domain_id=1
+gtid_strict_mode=1
+log_bin = /var/log/mysql/mysql-bin.log
+log_slave_updates=1
+binlog_format=ROW
